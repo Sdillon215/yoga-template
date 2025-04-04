@@ -5,8 +5,6 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --font-sans: var(--font-sans);
-
   /* Custom animations */
   --animate-accordion-down: accordion-down 0.2s ease-out;
   --animate-accordion-up: accordion-up 0.2s ease-out;
@@ -159,7 +157,6 @@
     @apply bg-background text-foreground;
   }
   h1 {
-    font-family: var(--font-sans);
     font-size: 2.5rem;
     line-height: 1.2;
     font-weight: bold;
@@ -169,7 +166,6 @@
   }
 
   h2 {
-    font-family: var(--font-sans);
     font-size: 2rem;
     line-height: 1.2;
     font-weight: bold;
@@ -179,7 +175,6 @@
   }
 
   h3 {
-    font-family: var(--font-sans);
     font-size: 1.5rem;
     line-height: 1.2;
     @media (width >= theme(--breakpoint-md)) {
@@ -188,7 +183,6 @@
   }
 
   h4 {
-    font-family: var(--font-sans);
     font-size: 1.25rem;
     line-height: 1.3;
     @media (width >= theme(--breakpoint-md)) {
@@ -197,7 +191,6 @@
   }
 
   h5 {
-    font-family: var(--font-sans);
     font-size: 1.125rem;
     line-height: 1.4;
     @media (width >= theme(--breakpoint-md)) {
@@ -206,7 +199,6 @@
   }
 
   h6 {
-    font-family: var(--font-sans);
     font-size: 1rem;
     line-height: 1.4;
     @media (width >= theme(--breakpoint-md)) {

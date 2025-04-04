@@ -11,6 +11,16 @@ const navItems = [
     target: false,
   },
   {
+    label: "Classes",
+    href: "/classes",
+    target: false,
+  },
+  {
+    label: "Instructors",
+    href: "/Instructors",
+    target: false,
+  },
+  {
     label: "Blog",
     href: "/blog",
     target: false,
@@ -29,12 +39,10 @@ export default function Header() {
         <Link href="/" aria-label="Home page">
           <Logo />
         </Link>
-        <div className="hidden xl:flex gap-7 items-center justify-between">
+        <div className="hidden md:flex gap-7 items-center justify-between">
           <DesktopNav navItems={navItems} />
-          <ModeToggle />
         </div>
-        <div className="flex items-center xl:hidden">
-          <ModeToggle />
+        <div className="flex items-center md:hidden">
           <MobileNav navItems={navItems} />
         </div>
       </div>
