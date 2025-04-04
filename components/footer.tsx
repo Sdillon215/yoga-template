@@ -8,6 +8,16 @@ const navItems = [
     target: false,
   },
   {
+    label: "Classes",
+    href: "/classes",
+    target: false,
+  },
+  {
+    label: "Instructors",
+    href: "/Instructors",
+    target: false,
+  },
+  {
     label: "Blog",
     href: "/blog",
     target: false,
